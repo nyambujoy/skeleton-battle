@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.title {
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+
+.gameboard {
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    height: 500px;
+    width: 500px;
+
+
+}
+
+.new {
+    border: 1px solid black;
+}
+
+.ship {
+    background-color: gray;
+}
